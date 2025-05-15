@@ -1,0 +1,69 @@
+com.android.see_you_in_ceu.app-jetified-core-common-2.0.3-0 C:\Users\63945\.gradle\caches\transforms-3\019b34cf8a89ac1e2b197c6137c9bd6d\transformed\jetified-core-common-2.0.3\res
+com.android.see_you_in_ceu.app-jetified-play-services-base-18.5.0-1 C:\Users\63945\.gradle\caches\transforms-3\0345c8fee4de1158a88f1bacd13fd1f0\transformed\jetified-play-services-base-18.5.0\res
+com.android.see_you_in_ceu.app-jetified-datastore-preferences-release-2 C:\Users\63945\.gradle\caches\transforms-3\06a6bcc779314e35250173bba1e4c291\transformed\jetified-datastore-preferences-release\res
+com.android.see_you_in_ceu.app-jetified-play-services-auth-21.0.0-3 C:\Users\63945\.gradle\caches\transforms-3\0b72d43a3cec8d8315445d2e26dff36a\transformed\jetified-play-services-auth-21.0.0\res
+com.android.see_you_in_ceu.app-jetified-startup-runtime-1.1.1-4 C:\Users\63945\.gradle\caches\transforms-3\1154c8d94cf4f385b831dd5b848c94c2\transformed\jetified-startup-runtime-1.1.1\res
+com.android.see_you_in_ceu.app-jetified-credentials-play-services-auth-1.2.0-rc01-5 C:\Users\63945\.gradle\caches\transforms-3\158675ed0c5b5a01a12007adae4188bb\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\res
+com.android.see_you_in_ceu.app-jetified-play-services-basement-18.5.0-6 C:\Users\63945\.gradle\caches\transforms-3\1b92ad314bed36f9bb20b5b5e646a9e9\transformed\jetified-play-services-basement-18.5.0\res
+com.android.see_you_in_ceu.app-jetified-tracing-1.2.0-7 C:\Users\63945\.gradle\caches\transforms-3\1f532d5dca181d1f9bcc5ae588afaa84\transformed\jetified-tracing-1.2.0\res
+com.android.see_you_in_ceu.app-jetified-activity-1.9.3-8 C:\Users\63945\.gradle\caches\transforms-3\22a65ad082b8d4750eb916de4ec963c2\transformed\jetified-activity-1.9.3\res
+com.android.see_you_in_ceu.app-jetified-savedstate-1.2.1-9 C:\Users\63945\.gradle\caches\transforms-3\29c2fae0c970d9b458f5b4b797592b67\transformed\jetified-savedstate-1.2.1\res
+com.android.see_you_in_ceu.app-appcompat-1.1.0-10 C:\Users\63945\.gradle\caches\transforms-3\2b9fd59e3dc13f1313d387bd3d93b831\transformed\appcompat-1.1.0\res
+com.android.see_you_in_ceu.app-jetified-lifecycle-service-2.7.0-11 C:\Users\63945\.gradle\caches\transforms-3\3268597773318c07842b2ed069e25c35\transformed\jetified-lifecycle-service-2.7.0\res
+com.android.see_you_in_ceu.app-jetified-datastore-release-12 C:\Users\63945\.gradle\caches\transforms-3\327b3f7fb81fbe851cb945f2523adccc\transformed\jetified-datastore-release\res
+com.android.see_you_in_ceu.app-jetified-savedstate-ktx-1.2.1-13 C:\Users\63945\.gradle\caches\transforms-3\3d353abc8fa209457ee3ecf0aa119d2a\transformed\jetified-savedstate-ktx-1.2.1\res
+com.android.see_you_in_ceu.app-jetified-window-java-1.2.0-14 C:\Users\63945\.gradle\caches\transforms-3\44ee5c0e19bed288c3e80560c2e09a24\transformed\jetified-window-java-1.2.0\res
+com.android.see_you_in_ceu.app-browser-1.4.0-15 C:\Users\63945\.gradle\caches\transforms-3\46038bb6937af68410c9129965d3223c\transformed\browser-1.4.0\res
+com.android.see_you_in_ceu.app-jetified-lifecycle-viewmodel-ktx-2.7.0-16 C:\Users\63945\.gradle\caches\transforms-3\4784effd4aa07b705ff866a502675b21\transformed\jetified-lifecycle-viewmodel-ktx-2.7.0\res
+com.android.see_you_in_ceu.app-slidingpanelayout-1.2.0-17 C:\Users\63945\.gradle\caches\transforms-3\51541ae99acd4bb4441558d158b5b4ad\transformed\slidingpanelayout-1.2.0\res
+com.android.see_you_in_ceu.app-lifecycle-runtime-2.7.0-18 C:\Users\63945\.gradle\caches\transforms-3\5926fff56115618d97c423d5b0798ce7\transformed\lifecycle-runtime-2.7.0\res
+com.android.see_you_in_ceu.app-jetified-lifecycle-process-2.7.0-19 C:\Users\63945\.gradle\caches\transforms-3\6160a937c3f18b80a0e501ab7f550297\transformed\jetified-lifecycle-process-2.7.0\res
+com.android.see_you_in_ceu.app-jetified-ads-adservices-1.1.0-beta11-20 C:\Users\63945\.gradle\caches\transforms-3\62af95e6e38891a062633a69f9bab7c9\transformed\jetified-ads-adservices-1.1.0-beta11\res
+com.android.see_you_in_ceu.app-fragment-1.7.1-21 C:\Users\63945\.gradle\caches\transforms-3\6633c46cd783c2a21639f8f5fece29fa\transformed\fragment-1.7.1\res
+com.android.see_you_in_ceu.app-jetified-appcompat-resources-1.1.0-22 C:\Users\63945\.gradle\caches\transforms-3\7151ad297b550113ddea2930ec992aa6\transformed\jetified-appcompat-resources-1.1.0\res
+com.android.see_you_in_ceu.app-jetified-ads-adservices-java-1.1.0-beta11-23 C:\Users\63945\.gradle\caches\transforms-3\72106fd3544e24e84f0b235b452ec609\transformed\jetified-ads-adservices-java-1.1.0-beta11\res
+com.android.see_you_in_ceu.app-coordinatorlayout-1.0.0-24 C:\Users\63945\.gradle\caches\transforms-3\767064f3e159df17c2ac774c22dc18ed\transformed\coordinatorlayout-1.0.0\res
+com.android.see_you_in_ceu.app-jetified-profileinstaller-1.3.1-25 C:\Users\63945\.gradle\caches\transforms-3\85341a9f7f372d733e4d1fccfbbdecb0\transformed\jetified-profileinstaller-1.3.1\res
+com.android.see_you_in_ceu.app-jetified-core-ktx-1.9.0-26 C:\Users\63945\.gradle\caches\transforms-3\9c03574c1d4a726967d3a952dd40096d\transformed\jetified-core-ktx-1.9.0\res
+com.android.see_you_in_ceu.app-localbroadcastmanager-1.1.0-27 C:\Users\63945\.gradle\caches\transforms-3\9db55a7517361e5742c841126f7803e0\transformed\localbroadcastmanager-1.1.0\res
+com.android.see_you_in_ceu.app-core-runtime-2.2.0-28 C:\Users\63945\.gradle\caches\transforms-3\abf03ae3fcc131be6c66a1a6ae2cae9c\transformed\core-runtime-2.2.0\res
+com.android.see_you_in_ceu.app-jetified-lifecycle-livedata-core-ktx-2.7.0-29 C:\Users\63945\.gradle\caches\transforms-3\ada28d681539b243e9954640c7493113\transformed\jetified-lifecycle-livedata-core-ktx-2.7.0\res
+com.android.see_you_in_ceu.app-lifecycle-livedata-2.7.0-30 C:\Users\63945\.gradle\caches\transforms-3\b46329debeccad3b1272cde160b13889\transformed\lifecycle-livedata-2.7.0\res
+com.android.see_you_in_ceu.app-jetified-activity-ktx-1.9.3-31 C:\Users\63945\.gradle\caches\transforms-3\b55e6d8ae0af259e80c15c011be55e5f\transformed\jetified-activity-ktx-1.9.3\res
+com.android.see_you_in_ceu.app-recyclerview-1.0.0-32 C:\Users\63945\.gradle\caches\transforms-3\b8f8e64270cc25cd90867bb42d088acc\transformed\recyclerview-1.0.0\res
+com.android.see_you_in_ceu.app-jetified-firebase-common-21.0.0-33 C:\Users\63945\.gradle\caches\transforms-3\b96a0f7be7d48fa78a78c7388133c247\transformed\jetified-firebase-common-21.0.0\res
+com.android.see_you_in_ceu.app-jetified-datastore-core-release-34 C:\Users\63945\.gradle\caches\transforms-3\ba2987bb3c92b0867b512c2b7c85df73\transformed\jetified-datastore-core-release\res
+com.android.see_you_in_ceu.app-preference-1.2.1-35 C:\Users\63945\.gradle\caches\transforms-3\bc6ef33e5ec596524e95e5313c031d42\transformed\preference-1.2.1\res
+com.android.see_you_in_ceu.app-core-1.9.0-36 C:\Users\63945\.gradle\caches\transforms-3\c6ef398442e4b9a9d137f5972c66dac0\transformed\core-1.9.0\res
+com.android.see_you_in_ceu.app-jetified-firebase-messaging-24.1.1-37 C:\Users\63945\.gradle\caches\transforms-3\cc61c02e03c3120b73db423a13615f5e\transformed\jetified-firebase-messaging-24.1.1\res
+com.android.see_you_in_ceu.app-jetified-lifecycle-viewmodel-savedstate-2.7.0-38 C:\Users\63945\.gradle\caches\transforms-3\cfca3be6a53238d5fc856b24637f4fcf\transformed\jetified-lifecycle-viewmodel-savedstate-2.7.0\res
+com.android.see_you_in_ceu.app-jetified-annotation-experimental-1.4.0-39 C:\Users\63945\.gradle\caches\transforms-3\dcfe1b560634644d58aaf366978a77a8\transformed\jetified-annotation-experimental-1.4.0\res
+com.android.see_you_in_ceu.app-jetified-core-1.0.0-40 C:\Users\63945\.gradle\caches\transforms-3\e4040ae39634df5d8da127fbf5d59126\transformed\jetified-core-1.0.0\res
+com.android.see_you_in_ceu.app-jetified-lifecycle-runtime-ktx-2.7.0-41 C:\Users\63945\.gradle\caches\transforms-3\e4252459b112b117b18683901b08c844\transformed\jetified-lifecycle-runtime-ktx-2.7.0\res
+com.android.see_you_in_ceu.app-jetified-credentials-1.2.0-rc01-42 C:\Users\63945\.gradle\caches\transforms-3\e641224a7eecc8b29dba81355d57f052\transformed\jetified-credentials-1.2.0-rc01\res
+com.android.see_you_in_ceu.app-lifecycle-livedata-core-2.7.0-43 C:\Users\63945\.gradle\caches\transforms-3\e9afc1ea4d63c05b04a553368c6b90c7\transformed\lifecycle-livedata-core-2.7.0\res
+com.android.see_you_in_ceu.app-jetified-window-1.2.0-44 C:\Users\63945\.gradle\caches\transforms-3\eabbabb1ee8c2d890327f387f7c5cf69\transformed\jetified-window-1.2.0\res
+com.android.see_you_in_ceu.app-jetified-fragment-ktx-1.7.1-45 C:\Users\63945\.gradle\caches\transforms-3\eda4ee5a053a67c7f2c684299d13e86e\transformed\jetified-fragment-ktx-1.7.1\res
+com.android.see_you_in_ceu.app-transition-1.4.1-46 C:\Users\63945\.gradle\caches\transforms-3\f2119f43f11110f3ccad2fbab5c98e67\transformed\transition-1.4.1\res
+com.android.see_you_in_ceu.app-lifecycle-viewmodel-2.7.0-47 C:\Users\63945\.gradle\caches\transforms-3\f421135a23445001a3554cb84c59dd61\transformed\lifecycle-viewmodel-2.7.0\res
+com.android.see_you_in_ceu.app-packaged_res-48 C:\Users\63945\AppData\Local\Pub\Cache\hosted\pub.dev\cloud_firestore-5.6.6\android\build\intermediates\packaged_res\debug
+com.android.see_you_in_ceu.app-packaged_res-49 C:\Users\63945\AppData\Local\Pub\Cache\hosted\pub.dev\firebase_analytics-11.4.5\android\build\intermediates\packaged_res\debug
+com.android.see_you_in_ceu.app-packaged_res-50 C:\Users\63945\AppData\Local\Pub\Cache\hosted\pub.dev\firebase_auth-5.5.2\android\build\intermediates\packaged_res\debug
+com.android.see_you_in_ceu.app-packaged_res-51 C:\Users\63945\AppData\Local\Pub\Cache\hosted\pub.dev\firebase_core-3.13.0\android\build\intermediates\packaged_res\debug
+com.android.see_you_in_ceu.app-packaged_res-52 C:\Users\63945\AppData\Local\Pub\Cache\hosted\pub.dev\firebase_database-11.3.5\android\build\intermediates\packaged_res\debug
+com.android.see_you_in_ceu.app-packaged_res-53 C:\Users\63945\AppData\Local\Pub\Cache\hosted\pub.dev\firebase_messaging-15.2.5\android\build\intermediates\packaged_res\debug
+com.android.see_you_in_ceu.app-packaged_res-54 C:\Users\63945\AppData\Local\Pub\Cache\hosted\pub.dev\firebase_storage-12.4.5\android\build\intermediates\packaged_res\debug
+com.android.see_you_in_ceu.app-packaged_res-55 C:\Users\63945\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_plugin_android_lifecycle-2.0.28\android\build\intermediates\packaged_res\debug
+com.android.see_you_in_ceu.app-packaged_res-56 C:\Users\63945\AppData\Local\Pub\Cache\hosted\pub.dev\google_sign_in_android-6.2.1\android\build\intermediates\packaged_res\debug
+com.android.see_you_in_ceu.app-packaged_res-57 C:\Users\63945\AppData\Local\Pub\Cache\hosted\pub.dev\image_picker_android-0.8.12+23\android\build\intermediates\packaged_res\debug
+com.android.see_you_in_ceu.app-packaged_res-58 C:\Users\63945\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_android-2.2.17\android\build\intermediates\packaged_res\debug
+com.android.see_you_in_ceu.app-packaged_res-59 C:\Users\63945\AppData\Local\Pub\Cache\hosted\pub.dev\permission_handler_android-13.0.1\android\build\intermediates\packaged_res\debug
+com.android.see_you_in_ceu.app-packaged_res-60 C:\Users\63945\AppData\Local\Pub\Cache\hosted\pub.dev\shared_preferences_android-2.4.10\android\build\intermediates\packaged_res\debug
+com.android.see_you_in_ceu.app-pngs-61 C:\Users\63945\Desktop\See You - Copy - Copy\see_you_in_ceu\android\app\build\generated\res\pngs\debug
+com.android.see_you_in_ceu.app-res-62 C:\Users\63945\Desktop\See You - Copy - Copy\see_you_in_ceu\android\app\build\generated\res\processDebugGoogleServices
+com.android.see_you_in_ceu.app-resValues-63 C:\Users\63945\Desktop\See You - Copy - Copy\see_you_in_ceu\android\app\build\generated\res\resValues\debug
+com.android.see_you_in_ceu.app-mergeDebugResources-64 C:\Users\63945\Desktop\See You - Copy - Copy\see_you_in_ceu\android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir
+com.android.see_you_in_ceu.app-mergeDebugResources-65 C:\Users\63945\Desktop\See You - Copy - Copy\see_you_in_ceu\android\app\build\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+com.android.see_you_in_ceu.app-merged_res-66 C:\Users\63945\Desktop\See You - Copy - Copy\see_you_in_ceu\android\app\build\intermediates\merged_res\debug
+com.android.see_you_in_ceu.app-debug-67 C:\Users\63945\Desktop\See You - Copy - Copy\see_you_in_ceu\android\app\src\debug\res
+com.android.see_you_in_ceu.app-main-68 C:\Users\63945\Desktop\See You - Copy - Copy\see_you_in_ceu\android\app\src\main\res

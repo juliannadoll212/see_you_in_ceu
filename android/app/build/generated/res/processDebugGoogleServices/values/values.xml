@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">1077308768674-tqtd8nptm8e8s0mbume7o8j9qddcbcjg.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">1077308768674</string>
+    <string name="google_api_key" translatable="false">AIzaSyAmY_fv-YVSjAUAzIMlt5V4Hi00kpOJS9o</string>
+    <string name="google_app_id" translatable="false">1:1077308768674:android:fd5741525f719a388bf2fb</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAmY_fv-YVSjAUAzIMlt5V4Hi00kpOJS9o</string>
+    <string name="google_storage_bucket" translatable="false">see-you-in-ceu-e5dcd.firebasestorage.app</string>
+    <string name="project_id" translatable="false">see-you-in-ceu-e5dcd</string>
+</resources>

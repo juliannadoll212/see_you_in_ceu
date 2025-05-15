@@ -1,0 +1,108 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Allow read/write access to authenticated users
+    match /{document=**} {
+      allow read, write: if request.auth != null;
+    }
+
+    // USERS COLLECTION
+	match /users/{userId} {
+  // Allow the user to read/write their own document
+  allow read, write: if request.auth != null && request.auth.uid == userId;
+
+  // Allow admins to read any user document (so isAdmin() checks work)
+  allow get: if request.auth != null &&
+    get(/databases/$(database)/documents/users/$(request.auth.uid)).data.isAdmin == true;
+    
+  // Allow admins to list all users
+  allow list: if request.auth != null &&
+    get(/databases/$(database)/documents/users/$(request.auth.uid)).data.isAdmin == true;
+}
+
+    // FOUND ITEMS
+    match /found_items/{itemId} {
+      function isAdmin() {
+        return request.auth != null &&
+          get(/databases/$(database)/documents/users/$(request.auth.uid)).data.isAdmin == true;
+      }
+
+      function isOwner() {
+        return request.auth != null && (
+          resource.data.foundBy == request.auth.uid || 
+          resource.data.userId == request.auth.uid || 
+          resource.data.uploadedBy == request.auth.uid
+        );
+      }
+
+      // Admin can read everything, owners can read their items, others can read approved items
+      allow read: if request.auth != null && (
+        isAdmin() || resource.data.approved == true || isOwner()
+      );
+      allow list: if request.auth != null;
+      // Any authenticated user can create
+      allow create: if request.auth != null;
+      // Only owner or admin can update/delete
+      allow update, delete: if isOwner() || isAdmin();
+    }
+
+    // LOST ITEMS
+    match /lost_items/{itemId} {
+      function isAdmin() {
+        return request.auth != null &&
+          get(/databases/$(database)/documents/users/$(request.auth.uid)).data.isAdmin == true;
+      }
+
+      function isOwner() {
+        return request.auth != null && (
+          resource.data.reportedBy == request.auth.uid || 
+          resource.data.userId == request.auth.uid || 
+          resource.data.uploadedBy == request.auth.uid
+        );
+      }
+
+      // Public reading for lost items
+      allow list, get: if true;
+      // Any authenticated user can create
+      allow create: if request.auth != null;
+      // Only owner or admin can update/delete
+      allow update, delete: if isOwner() || isAdmin();
+    }
+
+    // NOTIFICATIONS
+    match /notifications/{notificationId} {
+      function isAdmin() {
+        return request.auth != null &&
+          get(/databases/$(database)/documents/users/$(request.auth.uid)).data.isAdmin == true;
+      }
+
+      // All authenticated users can read notifications
+      allow read: if request.auth != null;
+      
+      // Only admins can create, update, or delete notifications
+      allow create, update, delete: if isAdmin();
+    }
+    
+    // OBJECT DETECTIONS
+    match /detections/{detectionId} {
+      function isAdmin() {
+        return request.auth != null &&
+          get(/databases/$(database)/documents/users/$(request.auth.uid)).data.isAdmin == true;
+      }
+      
+      function isOwner() {
+        return request.auth != null &&
+          resource.data.userId == request.auth.uid;
+      }
+      
+      // Allow authenticated users to read their own detections or all if admin
+      allow read: if request.auth != null && (isOwner() || isAdmin());
+      
+      // Allow authenticated users to create detections
+      allow create: if request.auth != null;
+      
+      // Only owner or admin can update/delete
+      allow update, delete: if isOwner() || isAdmin();
+    }
+  }
+} 

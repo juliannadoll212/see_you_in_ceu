@@ -1,0 +1,32 @@
+buildscript {
+    ext.kotlin_version = '1.8.10'
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.2.2'
+        classpath 'com.google.gms:google-services:4.4.1'
+        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.22'
+    }
+}
+
+// Set up repository configuration for all projects
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+// Set JDK version for all subprojects
+subprojects {
+    tasks.withType(JavaCompile) {
+        sourceCompatibility = JavaVersion.VERSION_11
+        targetCompatibility = JavaVersion.VERSION_11
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+} 

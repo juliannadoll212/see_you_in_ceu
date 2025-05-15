@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.android.see_you_in_ceu.app-mergeDebugResources-64:/values-xlarge-v4/values-xlarge-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\63945\\.gradle\\caches\\transforms-3\\2b9fd59e3dc13f1313d387bd3d93b831\\transformed\\appcompat-1.1.0\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,126,197,267,337,405",
+                        "endColumns": "70,70,69,69,67,67",
+                        "endOffsets": "121,192,262,332,400,468"
+                    }
+                }
+            ]
+        }
+    ]
+}

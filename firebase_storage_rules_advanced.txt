@@ -1,0 +1,61 @@
+// Advanced Firebase Storage Security Rules for Lost and Found App
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    // Helper functions
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+    
+    function isValidImage() {
+      return request.resource.contentType.matches('image/.*');
+    }
+    
+    function isValidSize() {
+      return request.resource.size < 5 * 1024 * 1024; // 5MB max
+    }
+    
+    function isOwner(userId) {
+      return request.auth.uid == userId;
+    }
+    
+    // Global read access for anyone
+    match /{allPaths=**} {
+      allow read;
+    }
+    
+    // Found items images
+    match /found_items/{imageId} {
+      allow read;
+      allow create: if isAuthenticated() && 
+                     isValidImage() && 
+                     isValidSize();
+      allow update, delete: if isAuthenticated() && 
+                             isOwner(resource.metadata.uploadedBy);
+    }
+    
+    // Lost items images
+    match /lost_items/{imageId} {
+      allow read;
+      allow create: if isAuthenticated() && 
+                     isValidImage() && 
+                     isValidSize();
+      allow update, delete: if isAuthenticated() && 
+                             isOwner(resource.metadata.uploadedBy);
+    }
+    
+    // Root level uploads (as used in your app)
+    match /{fileName} {
+      allow read;
+      allow create: if isAuthenticated() && 
+                     isValidImage() && 
+                     isValidSize();
+      
+      // Special rule for found_item_* files
+      allow create: if isAuthenticated() && 
+                     isValidImage() && 
+                     isValidSize() &&
+                     fileName.matches('found_item_[0-9]+\\.jpg');
+    }
+  }
+} 

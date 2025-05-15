@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "1077308768674",
+    "project_id": "see-you-in-ceu-e5dcd",
+    "storage_bucket": "see-you-in-ceu-e5dcd.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1077308768674:android:fd5741525f719a388bf2fb",
+        "android_client_info": {
+          "package_name": "com.android.see_you_in_ceu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1077308768674-nj8mkr7s72p4n0qh2ko11f0u44hcshav.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.see_you_in_ceu",
+            "certificate_hash": "d496903bfb02be5caece6783255c8796a99e5d47"
+          }
+        },
+        {
+          "client_id": "1077308768674-tqtd8nptm8e8s0mbume7o8j9qddcbcjg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmY_fv-YVSjAUAzIMlt5V4Hi00kpOJS9o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1077308768674-tqtd8nptm8e8s0mbume7o8j9qddcbcjg.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1077308768674-jpr3h8as32f1vecehma61dp2rrt2gd8o.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.apple.SeeYouInCeu"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

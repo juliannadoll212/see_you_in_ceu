@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.android.see_you_in_ceu.app-mergeDebugResources-64:/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\63945\\.gradle\\caches\\transforms-3\\2b9fd59e3dc13f1313d387bd3d93b831\\transformed\\appcompat-1.1.0\\res\\values-port\\values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}
